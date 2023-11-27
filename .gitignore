@@ -1,0 +1,9 @@
+# Dossiers
+node_modules/
+build/
+dist/
+package-lock.json
+
+# Fichiers
+.env
+.DS_Store
