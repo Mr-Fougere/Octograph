@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const subjectTipsSchema = new mongoose.Schema({
+const subjectTipSchema = new mongoose.Schema({
   text: {
     type: String,
     required: true,
@@ -11,6 +11,6 @@ const subjectTipsSchema = new mongoose.Schema({
   },
 });
 
-const SubjectTip = mongoose.model("SubjectTip", subjectTipsSchema);
+const SubjectTip = mongoose.model("SubjectTip", subjectTipSchema);
 
 module.exports = SubjectTip;
