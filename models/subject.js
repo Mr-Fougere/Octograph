@@ -7,9 +7,11 @@ const subjectSchema = new mongoose.Schema({
   },
   type: {
     type: String,
-    enum: ["pending", "approved", "rejected"],
-    default: "pending", // Valeur par défaut si aucune n'est fournie
+    enum: ["conjugation", "grammar", "orthography"],
+    default: "grammar",
   },
 });
 
-module.exports = mongoose.model("Subject", subjectSchema);
+const Subject = mongoose.model('Subject', subjectSchema);
+
+module.exports = Subject;
