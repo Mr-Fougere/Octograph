@@ -13,15 +13,8 @@ var app = Express();
 
 app.use(cors());
 
-const subjectsRouter = require("./routes/subjects");
-const exercicesRouter = require("./routes/lessonExercices");
-const tipsRouter = require("./routes/subjectTips");
-const lessonRouter = require("./routes/subjectLessons");
-
-app.use("/subjects", subjectsRouter);
-app.use("/subject_lessons", lessonRouter);
-app.use("/subject_tips", tipsRouter);
-app.use("/lesson_exercices", exercicesRouter);
+//const exercicesRouter = require("./routes/lessonExercices");
+//app.use("/lesson_exercices", exercicesRouter);
 
 
 app.listen(3000, () => {});

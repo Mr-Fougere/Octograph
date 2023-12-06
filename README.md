@@ -1,3 +1,3 @@
-# Octograph
+# API POULIQ
 
-API Node JS génération de lesson automatisé avec CHAT GPT
+API Node JS jeu mobile de soirée
